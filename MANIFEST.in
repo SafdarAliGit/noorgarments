@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include noorgarments *.css
+recursive-include noorgarments *.csv
+recursive-include noorgarments *.html
+recursive-include noorgarments *.ico
+recursive-include noorgarments *.js
+recursive-include noorgarments *.json
+recursive-include noorgarments *.md
+recursive-include noorgarments *.png
+recursive-include noorgarments *.py
+recursive-include noorgarments *.svg
+recursive-include noorgarments *.txt
+recursive-exclude noorgarments *.pyc
