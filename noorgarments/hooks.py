@@ -30,6 +30,8 @@ app_license = "MIT"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {"Item": "public/js/item.js", "Sales Invoice": "public/js/sales_invoice.js",
+              "Purchase Invoice": "public/js/purchase_invoice.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -199,3 +201,4 @@ app_license = "MIT"
 # auth_hooks = [
 #	"noorgarments.auth.validate"
 # ]
+required_apps = ["erpnext"]
